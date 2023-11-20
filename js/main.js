@@ -1,12 +1,3 @@
-var headerCatElement = document.querySelector('#header-cat');
-headerCatElement.innerText = 'Danh mục tin';
-
-var headerNewsElement = document.querySelector('#header-news');
-headerNewsElement.innerText = 'Tin tức';
-
-var listCatElement = document.querySelector('#list-cat');
-var listNewsElement = document.querySelector('#list-news');
-
 var listCat = [
     {
         id: 1,
@@ -25,17 +16,6 @@ var listCat = [
         name: 'Kinh doanh'
     },
 ]
-
-var htmlsCat = '';
-
-for (const el of listCat) {
-    htmlsCat += `
-        <li><a href="#" title="${el.name}">${el.name}</a></li>
-    `
-}
-
-console.log(htmlsCat);
-listCatElement.innerHTML = htmlsCat;
 
 var listNews = [
     {
@@ -74,20 +54,3 @@ var listNews = [
         image: 'h5.jpg'
     },
 ]
-
-var htmlsNews = '';
-
-for (const el of listNews) {
-    htmlsNews += `
-        <li>
-            <h4>
-                <a href="#" title="${el.title}">${el.title}</a>
-            </h4>
-            <a href="#" title=""><img src="images/tmp/${el.image}" alt="${el.image}" /></a>
-            <p>${el.content}</p>
-        </li>
-    `
-}
-
-// console.log(htmlsNews);
-listNewsElement.innerHTML = htmlsNews;
