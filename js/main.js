@@ -55,8 +55,8 @@ var listNews = [
     {
         id: 3,
         title: 'Những mỹ nhân Việt duyên dáng ở tuổi tứ tuần',
-        content: `Để bảo vệ giàn khoan, Trung Quốc đã điều thêm 17 tàu các loại so với hôm trước, sẵn
-        sàng đâm va vào tàu Việt Nam`,
+        content: `Việt Trinh, Thu Hà, Hồng Nhung, Thanh Lam... vẫn giữ được nét thanh xuân, tươi trẻ và cuốn hút
+        theo thời gian nhờ phong cách làm đẹp tinh tế.`,
         image: 'h3.jpg'
     },
     {
